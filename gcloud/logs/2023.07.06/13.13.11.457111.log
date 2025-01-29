@@ -1,0 +1,11 @@
+2023-07-06 13:13:11,457 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-07-06 13:13:11,458 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application_default']
+2023-07-06 13:13:11,459 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application-default', 'print_access_token']
+2023-07-06 13:13:11,460 DEBUG    root            Running [gcloud.auth.application-default.print-access-token] with arguments: []
+2023-07-06 13:13:11,495 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2023-07-06 13:13:11,500 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-07-06 13:13:11,581 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-07-06 13:13:11,582 DEBUG    root            Chosen display Format:value(token)
+2023-07-06 13:13:11,583 INFO     root            Display format: "value(token)"
+2023-07-06 13:13:11,583 INFO     ___FILE_ONLY___ ya29.c.b0Aaekm1Loc5_zkCPLarjaQL61MAb_2oSDozP4iBNS_sEvpiwz85aD-b1OFoGgfmCsj6lLIzKGdhtAey1Ljbn1E7QaoA-fUIAYAF5UCLhmR8BNVaMDca9QSAkos86Wk3DlbatfycxugUVJ48dwzYMf4u6XgMiC8xAocmpGVjiVQiU-C_8005VtFA_1Eu6GFa2FUNV7xcemPzofFFXsHNl8jtaTrRpFl8Mf-3yvip85IUuWXYTsyh6NCoKQ0JetcEVrggr5jZAmyFWljfCEtdm13F3LJvKUae2VkgGWInh1cUsk6_RL1jJm32EJs1d_kWzr9_MJEctFE337K96vpgqQWkY8cncQWX3sJSuB2eZuVpYo0o14Jyip-BtuMRS_jVy2W3egwdQqkFnp3YerF9sbi7150k6Uchx3_OaaQ_a7sxs6xgX9Mpmwe0-Jgb6Brsvo1OItf9IpV_Bk4nMxXe2wUbvjysqXZdYX9tbVbm-Q-rzSrZwuvQFBzp0kxu0nq3MUcem4qg71c6zlF_B_plqdY_n7WaeuZIdjIhS8dXZuyWy0SdumbbjqhJ05635m6ufVe59QB4yi90udxvUjgFhQWv_bsnMFvndQyhZ_4fl-ezZF-WWww3g_y1t0gr5it_zyuvYrphxMlzfpoWram1upe9b3j13tjbj8WliYjO7-cklf3YbpmbSmVn2U-O1Q_xXdb943Uqd7OzIvnM6oJgh6bhnXXWFvsauFt6eoO9y1zek1Z28_J6tioo-UuIcorqd1x_zxat9ZdXFtJkbuw993lyOMVcQQe495SwleRRzX_w2JS82kq9p15hs69xRiQgVUyo7lUo6d8riuvmX8_yRg53ycMnRXQy0boXBfy2wgFRsysbmdiuJ17o9_xZa0YxIF0OYZy7zdtMqZgVcymcwM3opQt49yOb4eB-JVIVxZ1Xufj2iuxfIwQwo2jzxYZpj9XY9olXpJ8MegW--IR--iwFox3-XR9z5_82r_X1ndys4aYI9fXVJiXBZ
+

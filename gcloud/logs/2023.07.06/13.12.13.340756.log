@@ -1,0 +1,58 @@
+2023-07-06 13:12:13,341 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-07-06 13:12:13,342 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application_default']
+2023-07-06 13:12:13,347 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application-default', 'login']
+2023-07-06 13:12:13,348 DEBUG    root            Running [gcloud.auth.application-default.login] with arguments: []
+2023-07-06 13:12:22,835 DEBUG    requests_oauthlib.oauth2_session Generated new state 46PC6xDjvsa7YoZsQtLip3J8T1wQUZ.
+2023-07-06 13:12:23,057 INFO     ___FILE_ONLY___ Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fsqlservice.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&state=46PC6xDjvsa7YoZsQtLip3J8T1wQUZ&access_type=offline&code_challenge=g9dJiq8SvlvHp4X_E0dNN_PsMmFjDEbX1MR6qc0P2Fc&code_challenge_method=S256
+
+
+2023-07-06 13:12:30,240 INFO     google_auth_oauthlib.flow "GET /?state=46PC6xDjvsa7YoZsQtLip3J8T1wQUZ&code=4/0AZEOvhV_hcIjAWvH2M9sIovthrWjnggLcOIHopZFBAJdLvZtX9iOHwQwQ5BIq9K3yRHL4g&scope=email%20openid%20https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/cloud-platform%20https://www.googleapis.com/auth/sqlservice.login%20https://www.googleapis.com/auth/accounts.reauth&authuser=0&prompt=consent HTTP/1.1" 200 959
+2023-07-06 13:12:30,240 DEBUG    requests_oauthlib.oauth2_session Requesting url https://oauth2.googleapis.com/token using method POST.
+2023-07-06 13:12:30,241 DEBUG    requests_oauthlib.oauth2_session Supplying headers {b'Accept': b'application/json', b'Content-Type': b'application/x-www-form-urlencoded;charset=UTF-8', b'user-agent': b'google-cloud-sdk gcloud/435.0.1 command/gcloud.auth.application-default.login invocation-id/60051170457b4a598e42cfa610fb691d environment/None environment-version/None client-os/MACOSX client-os-ver/22.4.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.3 term/xterm-256color (Macintosh; Intel Mac OS X 22.4.0)'} and data {'grant_type': 'authorization_code', 'client_id': '764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com', 'client_secret': 'd-FL95Q19q7MQmFpd7hHD0Ty', 'code': '4/0AZEOvhV_hcIjAWvH2M9sIovthrWjnggLcOIHopZFBAJdLvZtX9iOHwQwQ5BIq9K3yRHL4g', 'redirect_uri': 'http://localhost:8085/', 'code_verifier': 'QO1ZL_Rv2q34TL0~Yxg7oMKyGUM-mwsbG9zNfK7CiMl9z_i2c8Lgn~0lV78L64EdJv4verR0M0onHi19B-YL71mGfogz5hnqGS6y5pCy-~u-QW.SYTa1~YWzXxjCOdf-'}
+2023-07-06 13:12:30,241 DEBUG    requests_oauthlib.oauth2_session Passing through key word arguments {'json': None, 'timeout': None, 'auth': None, 'verify': None, 'proxies': None}.
+2023-07-06 13:12:30,278 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-07-06 13:12:34,785 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-07-06 13:12:47,380 DEBUG    requests_oauthlib.oauth2_session Prepared fetch token request body grant_type=authorization_code&client_id=764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com&client_secret=d-FL95Q19q7MQmFpd7hHD0Ty&code=4%2F0AZEOvhV_hcIjAWvH2M9sIovthrWjnggLcOIHopZFBAJdLvZtX9iOHwQwQ5BIq9K3yRHL4g&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&code_verifier=QO1ZL_Rv2q34TL0~Yxg7oMKyGUM-mwsbG9zNfK7CiMl9z_i2c8Lgn~0lV78L64EdJv4verR0M0onHi19B-YL71mGfogz5hnqGS6y5pCy-~u-QW.SYTa1~YWzXxjCOdf-
+2023-07-06 13:12:47,381 DEBUG    requests_oauthlib.oauth2_session Request to fetch token completed with status 200.
+2023-07-06 13:12:47,381 DEBUG    requests_oauthlib.oauth2_session Request headers were {'user-agent': b'google-cloud-sdk gcloud/435.0.1 command/gcloud.auth.application-default.login invocation-id/60051170457b4a598e42cfa610fb691d environment/None environment-version/None client-os/MACOSX client-os-ver/22.4.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.3 term/xterm-256color (Macintosh; Intel Mac OS X 22.4.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': b'application/json', 'Connection': 'keep-alive', 'Content-Type': b'application/x-www-form-urlencoded;charset=UTF-8', 'Content-Length': '421'}
+2023-07-06 13:12:47,381 DEBUG    requests_oauthlib.oauth2_session Request body was grant_type=authorization_code&client_id=764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com&client_secret=d-FL95Q19q7MQmFpd7hHD0Ty&code=4%2F0AZEOvhV_hcIjAWvH2M9sIovthrWjnggLcOIHopZFBAJdLvZtX9iOHwQwQ5BIq9K3yRHL4g&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&code_verifier=QO1ZL_Rv2q34TL0~Yxg7oMKyGUM-mwsbG9zNfK7CiMl9z_i2c8Lgn~0lV78L64EdJv4verR0M0onHi19B-YL71mGfogz5hnqGS6y5pCy-~u-QW.SYTa1~YWzXxjCOdf-
+2023-07-06 13:12:47,382 DEBUG    requests_oauthlib.oauth2_session Response headers were {'Expires': 'Mon, 01 Jan 1990 00:00:00 GMT', 'Pragma': 'no-cache', 'Date': 'Thu, 06 Jul 2023 18:12:34 GMT', 'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Origin, X-Origin, Referer', 'Content-Encoding': 'gzip', 'Server': 'scaffolding on HTTPServer2', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'X-Content-Type-Options': 'nosniff', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'} and content {
+  "access_token": "ya29.a0AbVbY6MNwRdPcILkyV2VvtpstdPiqdRoMWA5bcuMNadukDeq8j2UsXunYT8M7ffx7j1T19BDMiZCfabOWL7UQV_EjA17Y6EN9rTSzDT1re8AXxtErUpTJIyvwhvGLtj3MuXgerJT7kzfe2Hw1TxBDHvXi1gkaCgYKAScSARMSFQFWKvPlVXZG06a2Y4fYI5YWRulk6w0163",
+  "expires_in": 3599,
+  "refresh_token": "1//0fz2o1O93zvuWCgYIARAAGA8SNgF-L9IrBMLRBz3GtrmJfh6lhTXsR2NeXW0AT0N2vUbBSOogaZyh-Is53XnJBKh5Nj66Hm8NdA",
+  "scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/sqlservice.login openid https://www.googleapis.com/auth/accounts.reauth",
+  "token_type": "Bearer",
+  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzNDFkZWRlZWUyZDE4NjliNjU3ZmE5MzAzMDAwODJmZTI2YjNkOTIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI3NjQwODYwNTE4NTAtNnFyNHA2Z3BpNmhuNTA2cHQ4ZWp1cTgzZGkzNDFodXIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI3NjQwODYwNTE4NTAtNnFyNHA2Z3BpNmhuNTA2cHQ4ZWp1cTgzZGkzNDFodXIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE5NDg4MDMxMTc0MjQ0OTI5MDMiLCJlbWFpbCI6Im1hY2tleS5maXNoZXJAYmlsZGl0LmNvIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJLM1NsZzcxZGVWejd3eENqVXRSS2VRIiwiaWF0IjoxNjg4NjY3MTU0LCJleHAiOjE2ODg2NzA3NTR9.tfx4xgRXUyf4s-9gSL1OzANYj6_iQ2EafoEiHPlbE-lCmoAlpSI9wKm1ymg3lGOYNDzX2Tdv3r5wTwhq_mOMTkF9-vu318fzNiZBTDzoyY1HxdK48VEgfdfgajAY6Mga-81c7tTbzDTRwlNTSDyURJnyPErMhGNHIBH6wxwnFXW67Em6oDTQaobYGy5yUavTq-jHExT7rW07Lkjv4QPX4pIoJrNPUH_9msQQlzujm1ogl50On51QitQyr2Gh1QHgzNG46YXCpSCJwhIVUXMJKfKOsEZaNTi6B4PqeVL6T9ctCLZcJZNDbhfBBAB64iLtKvxmHqEkjkixT0BJaGlqQA"
+}.
+2023-07-06 13:12:47,382 DEBUG    requests_oauthlib.oauth2_session Invoking 0 token response hooks.
+2023-07-06 13:12:47,382 DEBUG    requests_oauthlib.oauth2_session Obtained token {'access_token': 'ya29.a0AbVbY6MNwRdPcILkyV2VvtpstdPiqdRoMWA5bcuMNadukDeq8j2UsXunYT8M7ffx7j1T19BDMiZCfabOWL7UQV_EjA17Y6EN9rTSzDT1re8AXxtErUpTJIyvwhvGLtj3MuXgerJT7kzfe2Hw1TxBDHvXi1gkaCgYKAScSARMSFQFWKvPlVXZG06a2Y4fYI5YWRulk6w0163', 'expires_in': 3599, 'refresh_token': '1//0fz2o1O93zvuWCgYIARAAGA8SNgF-L9IrBMLRBz3GtrmJfh6lhTXsR2NeXW0AT0N2vUbBSOogaZyh-Is53XnJBKh5Nj66Hm8NdA', 'scope': ['https://www.googleapis.com/auth/cloud-platform', 'https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/sqlservice.login', 'openid', 'https://www.googleapis.com/auth/accounts.reauth'], 'token_type': 'Bearer', 'id_token': 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzNDFkZWRlZWUyZDE4NjliNjU3ZmE5MzAzMDAwODJmZTI2YjNkOTIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI3NjQwODYwNTE4NTAtNnFyNHA2Z3BpNmhuNTA2cHQ4ZWp1cTgzZGkzNDFodXIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI3NjQwODYwNTE4NTAtNnFyNHA2Z3BpNmhuNTA2cHQ4ZWp1cTgzZGkzNDFodXIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE5NDg4MDMxMTc0MjQ0OTI5MDMiLCJlbWFpbCI6Im1hY2tleS5maXNoZXJAYmlsZGl0LmNvIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJLM1NsZzcxZGVWejd3eENqVXRSS2VRIiwiaWF0IjoxNjg4NjY3MTU0LCJleHAiOjE2ODg2NzA3NTR9.tfx4xgRXUyf4s-9gSL1OzANYj6_iQ2EafoEiHPlbE-lCmoAlpSI9wKm1ymg3lGOYNDzX2Tdv3r5wTwhq_mOMTkF9-vu318fzNiZBTDzoyY1HxdK48VEgfdfgajAY6Mga-81c7tTbzDTRwlNTSDyURJnyPErMhGNHIBH6wxwnFXW67Em6oDTQaobYGy5yUavTq-jHExT7rW07Lkjv4QPX4pIoJrNPUH_9msQQlzujm1ogl50On51QitQyr2Gh1QHgzNG46YXCpSCJwhIVUXMJKfKOsEZaNTi6B4PqeVL6T9ctCLZcJZNDbhfBBAB64iLtKvxmHqEkjkixT0BJaGlqQA', 'expires_at': 1688670766.382462}.
+2023-07-06 13:12:47,389 INFO     ___FILE_ONLY___ 
+Credentials saved to file: [/Users/mackayfisher/.config/gcloud/application_default_credentials.json]
+
+2023-07-06 13:12:47,389 INFO     ___FILE_ONLY___ 
+These credentials will be used by any library that requests Application Default Credentials (ADC).
+
+2023-07-06 13:12:47,389 WARNING  root            
+Cannot find a quota project to add to ADC. You might receive a "quota exceeded" or "API not enabled" error. Run $ gcloud auth application-default set-quota-project to add a quota project.
+2023-07-06 13:12:47,389 DEBUG    root            Chosen display Format:none
+2023-07-06 13:12:47,390 INFO     root            Display format: "none"
+2023-07-06 13:12:47,391 DEBUG    root            Checking for updates...
+2023-07-06 13:12:47,423 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-06 13:12:47,510 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 208274
+2023-07-06 13:12:47,588 DEBUG    root            Updating notification cache...
+2023-07-06 13:12:47,589 DEBUG    root            Activating notification: [default]
+2023-07-06 13:12:47,589 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Google Cloud CLI components.  To install them,
+please run:
+  $ gcloud components update
+
+
+2023-07-06 13:12:47,591 INFO     ___FILE_ONLY___ 
+
+To take a quick anonymous survey, run:
+  $ gcloud survey
+
+

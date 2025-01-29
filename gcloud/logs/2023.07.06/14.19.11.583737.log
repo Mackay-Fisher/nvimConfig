@@ -1,0 +1,20 @@
+2023-07-06 14:19:11,584 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-07-06 14:19:11,585 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application_default']
+2023-07-06 14:19:11,587 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application-default', 'login']
+2023-07-06 14:19:11,588 DEBUG    root            Running [gcloud.auth.application-default.login] with arguments: []
+2023-07-06 14:19:33,658 DEBUG    root            (gcloud.auth.application-default.login) Aborted by user.
+Traceback (most recent call last):
+  File "/Users/mackayfisher/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mackayfisher/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mackayfisher/google-cloud-sdk/lib/surface/auth/application_default/login.py", line 131, in Run
+    command_auth_util.PromptIfADCEnvVarIsSet()
+  File "/Users/mackayfisher/google-cloud-sdk/lib/googlecloudsdk/command_lib/auth/auth_util.py", line 130, in PromptIfADCEnvVarIsSet
+    console_io.PromptContinue(
+  File "/Users/mackayfisher/google-cloud-sdk/lib/googlecloudsdk/core/console/console_io.py", line 305, in PromptContinue
+    raise OperationCancelledError(cancel_string)
+googlecloudsdk.core.console.console_io.OperationCancelledError: Aborted by user.
+2023-07-06 14:19:33,665 ERROR    root            (gcloud.auth.application-default.login) Aborted by user.

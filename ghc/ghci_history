@@ -1,0 +1,100 @@
+:q
+cabal v1-install HUnit
+:q
+cabal v1-install HUnit
+:l Hw1.hs
+twice double 3
+twice times2 3
+twice f x
+twice 1 2
+:l hello.hs
+twice f x
+twice + 2
+twice 2 2
+twice (add 1) 3
+twice add 1 3
+twice add' 1 3
+palindrome [1,0,0,0,1]
+swap (3,4)
+swap 3 4
+pair 4 3
+twice 5(4)
+twice 5 
+twice 5 4
+lessThanHalf 2 5
+lessThanHalf 5 2
+:l hello.hs
+palindrome [1,0,0,0,1]
+palindrome racecar
+:l hello.hs
+init [1,2,3,4,5]
+tail [1,2,3,4,5]
+tail [1,2,3,4,5]
+init [1,2,3,4,5]
+:type 1
+:type [tail,init,reverse]
+:type ([False,True],['0','1'])
+:type ([False,True],[’0’,’1’])
+:type [(False,'0'),(True,'1')]
+[(False,'0'),(True,'1')]
+:type ['a','b','c']
+:type [('a','b','c')]
+:type ('a','b','c')
+:type 'a','b'
+:type 'a','b
+:type 'a'
+:type (’a’,’b’,’c’)
+:type [(False,’O’),(True,’1’)]
+:type (False,'0')
+:type '1'
+:type [’a’,’b’,’c’] 
+main
+:l hello.hs
+main
+:l hello.hs
+:q
+:type not False
+type: not False
+not False
+not true
+:q
+drop 5 [1..10]
+map length ["hi","all"]
+drop 5 [1..10]
+drop 3 [1..10]
+take 3 [1..10]
+tail 3 [1..10]
+reverse (map sqrt [4,9,100])
+map sqrt  [4,9,100]
+map (/2) [4,9,100]
+map /2 [4,9,100]
+map 'div' 2 [4,9,100]
+map /2 [4,9,100]
+"Howdy" reverse
+"Howdy" reverse
+"Howdy" !! 3
+"Howdy" !! 4
+(sqrt 5 + 4)
+map head ["Good","morning"]
+head ["Good","morning"]
+head head ["Good","morning"]
+:q
+:l exercise.hs
+:l exercise.hs
+n
+:l exercise.hs
+:l exercise.hs
+:q
+:l exercise.hs
+print [1..19]
+2+2
+:l exercise.hs
+10/5
+3/4
+:l exercise.hs
+n
+:l exercise.hs
+sqrt(3^2+13^3)
+5*3 -2
+5*5
+add square(2) add (7 4)

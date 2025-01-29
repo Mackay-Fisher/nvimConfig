@@ -1,0 +1,130 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1709746648135
+	},
+	"usage": true,
+	"analytics-uuid": "447f595b-6c45-4373-a0dd-87e1225b4410",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "103209916477442084928",
+		"email": "mackeyfisher@gmail.com",
+		"email_verified": true,
+		"at_hash": "WXVuxhUZ3zzIJduGyl4PVg",
+		"iat": 1684266758,
+		"exp": 1684270358
+	},
+	"tokens": {
+		"expires_at": 1709777682125,
+		"refresh_token": "1//0fAfJrfqQu1YlCgYIARAAGA8SNwF-L9Irl7AfRg6RsJyLKhqpXNA5PdJ-1FadvWccTp5TNBYmv7BbYigsjoGIePFux3z9q9-LHnY",
+		"scopes": [],
+		"access_token": "ya29.a0AfB_byDLqof5KNwSH6kbheTM_nkOLDJYIS2OMnX8EvM_UW5dyIWDZNs6EqyaSlSL8s6ZGt95RHaKEX_0ROQSzm6vn3Iv0AdBzXn6-i0bzNdqmjENsjx8MUWhE1nITTPgFUvJY70mvRfl4Ih0GoOHmaOoU7DJckr07K537JYW88ImaCgYKAS8SARASFQHGX2Mi593J4vgzXZ5SZNtw4njj2Q0179",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZmOTc3N2E2ODU5MDc3OThlZjc5NDA2MmMwMGI2NWQ2NmMyNDBiMWIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAzMjA5OTE2NDc3NDQyMDg0OTI4IiwiZW1haWwiOiJtYWNrZXlmaXNoZXJAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJRMmlBZDBlMXh4QzRCcXNnZ3Bld3FBIiwiaWF0IjoxNzA5Nzc0MDgzLCJleHAiOjE3MDk3Nzc2ODN9.oZKmbY08Z8rqNemkIqtq4tYowYpalA0GskS2hTyEslRjrmX8HmbSG5RI9q6HouQ5iokfcTWRXEmg4eU4ATTtG8fkGi0mfhWqBS4uG5TOBR9cP8hEE2TFbjR1gEjLRTyhZIhWYpHdEBUMCovHLmxDutOBIdCu2y05cM7h-bWtiyLUd3moaagL5qxGe97ri5RRQCIhUaZYWPaarlLAq_o2f9ZKw6gvptreAEgRUwWsX1ZeBQ8tr8qAiDn6pav76RYiU3pMUvE3s4iRoUFdC8NaNEVG0CK7pbj3tJlPHWrKfrb_MkeQsh6EhKgoaNnRMrBUoD4u7xvpTdyZGgIke-SO7Q"
+	},
+	"additionalAccounts": [
+		{
+			"user": {
+				"iss": "accounts.google.com",
+				"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+				"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+				"sub": "111948803117424492903",
+				"email": "mackey.fisher@bildit.co",
+				"email_verified": true,
+				"at_hash": "GRd3TRjCFx9Jta6sWOo-CQ",
+				"iat": 1684363794,
+				"exp": 1684367394
+			},
+			"tokens": {
+				"expires_at": 1692840634702,
+				"refresh_token": "1//010M2KIhJLlgbCgYIARAAGAESNgF-L9Ir9uoDVhr5gk8_92auvFxqUUIoH781HrpbSEN8R3VpYV3WhjOJrbcjoif64jjL5HG_jA",
+				"scopes": [],
+				"access_token": "ya29.a0AfB_byB2COBHd84jRhCz8O3roKCZA9Mr7zaaBOE68bHN18JQEJizdUGVnOYEpw0p3XPZbA5pztNb3jXaaVkOHaEOGZSOMCStBmCxxVUWdH9qwyb6Mx9Wcj8-a-plLOwx0QNeVIyUUeW0r1tNRNC2rTQAFXhivy_hMs8i2FCime3imZAlaCgYKAQoSARMSFQHsvYlsW5G-ocQfN172zTx55bRe1Q0183",
+				"expires_in": 3599,
+				"scope": "https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email openid",
+				"token_type": "Bearer",
+				"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImMzYWZlN2E5YmRhNDZiYWU2ZWY5N2U0NmM5NWNkYTQ4OTEyZTU5NzkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTExOTQ4ODAzMTE3NDI0NDkyOTAzIiwiZW1haWwiOiJtYWNrZXkuZmlzaGVyQGJpbGRpdC5jbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiZFF3aGRFYTlFdUdwM0IxSlFTU0tnQSIsImlhdCI6MTY5MjgzNzAzNSwiZXhwIjoxNjkyODQwNjM1fQ.W3Ezn6KW7Ayc6V9yvWI9gcjIs58YixhYnLglpiVBjFUfkYalVO8YSVCujojRGRE_jHmX8MdwR24TfGroZgrXcgODj_PL9PmQaGIwIissulKT7v-AxmBF0XOqxLGpjmY0RG9oIlc0dZFnmdOr5u6qWo_7t8M41YiZkc28-4r7PquGuPxdmkhzObtBQ9gPGzQQINYZrysNUVSaQDuW6_DG3Wl2YEPMEB9RjpNS0yVcU8rDWqLy2J0Qtz2bfEUdVKXKwWzUYZYYAaC7eyCdGzSN2PI2U5atWnL2RWD3NNmq846BWfaoKJv-th3UsNEolAeBhcYBYgaVu355VopRdeOXug"
+			}
+		}
+	],
+	"activeAccounts": {
+		"/Users/mackayfisher/Desktop/BLDIT/bildit-cms": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/Test/test": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/Firebase/roi": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/Firebase/roi-tool": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/Firebase": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/BLDIT/Firebase": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/BLDIT/Firebase/roi-tool": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/functions": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/roi-tool": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/BLDIT/firebasetempelates/temp1": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/self-signup/self-sign-up": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/self-signup/bildit-cms": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/BLDIT/bildit-documentation": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/BLDIT/targetwebsite/landingpage": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/Projects/Personal_website/dev-show-app": "mackeyfisher@gmail.com",
+		"/Users/mackayfisher/Desktop/cms_release/bildit-cms": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/Personal/cassemail/my-app": "mackeyfisher@gmail.com",
+		"/Users/mackayfisher/Desktop/cms_release/bildit-cms-changed": "mackey.fisher@bildit.co",
+		"/Users/mackayfisher/Desktop/DocsHost": "mackeyfisher@gmail.com",
+		"/Users/mackayfisher/Desktop/project-3-911_11g/AngularPosProj": "mackeyfisher@gmail.com",
+		"/Users/mackayfisher/Desktop/Porhject3/project-3-911_11g/AngularPosProj": "mackeyfisher@gmail.com",
+		"/Users/mackayfisher/Desktop/project-3-911_11g/docHOst": "mackeyfisher@gmail.com",
+		"/Users/mackayfisher/Desktop/project7436": "mackeyfisher@gmail.com"
+	},
+	"emulator-analytics-clientId": "272b0d38-4cd4-4325-9885-b2957ca58f34",
+	"activeProjects": {
+		"/Users/mackayfisher/Desktop/Test/test": "compilepoc-2d379",
+		"/Users/mackayfisher/Desktop/Firebase/roi": "compilepoc-2d379",
+		"/Users/mackayfisher/Desktop/Firebase/roi-tool": "roitool",
+		"/Users/mackayfisher/Desktop/Firebase": "roitool",
+		"/Users/mackayfisher/Desktop/BLDIT/Firebase": "roitool",
+		"/Users/mackayfisher/Desktop/functions": "compilepoc-2d379",
+		"/Users/mackayfisher/Desktop/BLDIT/firebasetempelates/temp1": "roitool",
+		"/Users/mackayfisher/Desktop/self-signup/self-sign-up": "roitool",
+		"/Users/mackayfisher/Desktop/BLDIT/targetwebsite/landingpage": "roitool",
+		"/Users/mackayfisher/Desktop/Projects/Personal_website/dev-show-app": "personal-b6ce7",
+		"/Users/mackayfisher/Desktop/Personal/cassemail/my-app": "emailhelpcass",
+		"/Users/mackayfisher/Desktop/DocsHost": "guidoc-1bdf0",
+		"/Users/mackayfisher/Desktop/project-3-911_11g/AngularPosProj": "guidoc-1bdf0",
+		"/Users/mackayfisher/Desktop/Porhject3/project-3-911_11g/AngularPosProj": "bonappletea-fbedf",
+		"/Users/mackayfisher/Desktop/project-3-911_11g/docHOst": "porject3doc",
+		"/Users/mackayfisher/Desktop/project7436": "porject3doc"
+	},
+	"adminsdkconfig": {
+		"compilepoc-2d379": {
+			"projectId": "compilepoc-2d379",
+			"databaseURL": "https://compilepoc-2d379.firebaseio.com",
+			"storageBucket": "compilepoc-2d379.appspot.com",
+			"locationId": "us-central"
+		},
+		"roitool": {
+			"projectId": "roitool",
+			"databaseURL": "https://roitool-default-rtdb.firebaseio.com",
+			"storageBucket": "roitool.appspot.com"
+		}
+	},
+	"webconfig": {
+		"compilepoc-2d379": {
+			"projectId": "compilepoc-2d379",
+			"appId": "1:804238113332:web:ab68dc7b8ff7b0109fe861",
+			"databaseURL": "https://compilepoc-2d379.firebaseio.com",
+			"storageBucket": "compilepoc-2d379.appspot.com",
+			"locationId": "us-central",
+			"apiKey": "AIzaSyAkFpQ6b_dQCNNlN55htY9LDoZcH07g1tE",
+			"authDomain": "compilepoc-2d379.firebaseapp.com",
+			"messagingSenderId": "804238113332",
+			"measurementId": "G-5X07QERLPS"
+		}
+	}
+}

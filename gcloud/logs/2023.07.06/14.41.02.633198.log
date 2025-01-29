@@ -1,0 +1,11 @@
+2023-07-06 14:41:02,633 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-07-06 14:41:02,634 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application_default']
+2023-07-06 14:41:02,635 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application-default', 'print_access_token']
+2023-07-06 14:41:02,636 DEBUG    root            Running [gcloud.auth.application-default.print-access-token] with arguments: []
+2023-07-06 14:41:02,671 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2023-07-06 14:41:02,705 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-07-06 14:41:02,782 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-07-06 14:41:02,784 DEBUG    root            Chosen display Format:value(token)
+2023-07-06 14:41:02,784 INFO     root            Display format: "value(token)"
+2023-07-06 14:41:02,784 INFO     ___FILE_ONLY___ ya29.c.b0Aaekm1IoPdaTK4-D0-6UrlDOzL67nW7B6v-e0FLdG6YQmFBJ2U8pN8KIRJ4Zy0yZvKc90uvHYU24Dsx0TjB8Ab6AsJ0SLcht9CeKoZ1pnlMreBSq9Tnv1b6xvp_a-EM-ZIO-UtqpGr0VR9liNehDxUGMNyDk9cSw2sNjrCT4jzFwvNOS_omYUzYAJMxf9usE4AwgfkwkDkOm2CuuXbk3s2xtDkuGq4eqwIPzyoWmnFzfrd3LiNQcGw8kYeY8H7Gvjb_C9WhusY_n_ylyezcd8G3I_X6RHtlgRtB6Z23SZydqQkB2Z28zhgy7SmyezyId91pSY8jCH337A0l8lBswnxvcBo1O2rrz_80asBeQlVpdR7IcBy8fybbfYi7whezFp5_B2fl9ySi3j3ip_Mu2dk9k20lv_FJelgm1002aUluVur4z3Xk42t4hOpoMR9iv8aS4v-0Uzq4p2XI57JrhJROaR9syJZBRgZbicvISuO6nspfzlsWdqY81bj31lod303xr--nqBISrw1Q5hsuhOM1ijFrzZ8ja2O_U1MxR3fdlOyodtQ_9Ycqlu2ngMgsh4lp5tigzVp007Mn60j8WQI-71b15XJprj5m8BlpV-pkeM4a-uldxsFVuFQZXIujoc1qijznnr-x9rc8_7xuf3IsJpI1SyomflydFYkqlXU3lg3eopFujV7FZJ25m8RYgvYfxZ_3dibJ4VQ-W3tXsti7_7Vx5l8vfa0y0Mt5Z5eWqSpSJyuhOJuO0ZqkqpROXonf8uzb0u2oSjkrevizeInf76nxZSwo7vUszjsyX92jYsuF66Rok6kVOoYFx54djZ47Rnamw8hx-bjlgMgW3Z3FWqXy7418rxfFcga5qWtWh9RtWnedvFfol8vfQ8pZYQQa610gj_scsBU-pO-oUZ3FhaygbQeS0uQB34OIuW0zMdMBcX6Mr_Fu0mZod9leMhIjOcOus-umh93X1v24xIxhza5SVYlJhrJYzJkde3-ebrJfdwvl6YBt
+
